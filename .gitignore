@@ -359,3 +359,6 @@ build_*/
 
 # Clangd cache
 .clangd/
+
+# CMake files
+CMakeFiles/
