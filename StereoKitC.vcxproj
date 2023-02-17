@@ -1,0 +1,463 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|arm64">
+      <Configuration>Debug</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|arm64">
+      <Configuration>Release</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|arm64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|arm64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2D2F95B8-8358-36D7-9B50-AFF3ED107C76}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <ApplicationType>Windows Store</ApplicationType>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <AppContainerApplication>true</AppContainerApplication>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.22000.0</WindowsTargetPlatformMinVersion>
+    <Platform>arm64</Platform>
+    <ProjectName>StereoKitC</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|arm64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|arm64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|arm64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">StereoKitC.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">StereoKitC</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|arm64'">C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|arm64'">StereoKitC.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|arm64'">StereoKitC</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|arm64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|arm64'">C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|arm64'">StereoKitC.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|arm64'">StereoKitC</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|arm64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|arm64'">C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|arm64'">StereoKitC.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|arm64'">StereoKitC</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|arm64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\reactphysics3d-src\include;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\openxr-src\include;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\openxr-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WINDOWS_UWP;_WINDOWS;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\reactphysics3d-src\include;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\openxr-src\include;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\openxr-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\reactphysics3d-src\include;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\openxr-src\include;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\openxr-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:ARM64</AdditionalOptions>
+    </Lib>
+    <Link>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|arm64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\reactphysics3d-src\include;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\openxr-src\include;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\openxr-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WINDOWS_UWP;_WINDOWS;UNICODE;_UNICODE;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\reactphysics3d-src\include;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\openxr-src\include;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\openxr-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\reactphysics3d-src\include;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\openxr-src\include;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\openxr-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:ARM64</AdditionalOptions>
+    </Lib>
+    <Link>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|arm64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\reactphysics3d-src\include;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\openxr-src\include;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\openxr-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WINDOWS_UWP;_WINDOWS;UNICODE;_UNICODE;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\reactphysics3d-src\include;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\openxr-src\include;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\openxr-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\reactphysics3d-src\include;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\openxr-src\include;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\openxr-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:ARM64</AdditionalOptions>
+    </Lib>
+    <Link>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|arm64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\reactphysics3d-src\include;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\openxr-src\include;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\openxr-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WINDOWS_UWP;_WINDOWS;UNICODE;_UNICODE;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\reactphysics3d-src\include;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\openxr-src\include;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\openxr-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\reactphysics3d-src\include;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\openxr-src\include;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\openxr-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:ARM64</AdditionalOptions>
+    </Lib>
+    <Link>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">Building Custom Rule C:/Users/Jaro/Repos/HolographicRemoting/player_openxr/stereokit/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Jaro/Repos/HolographicRemoting/player_openxr -BC:/Users/Jaro/Repos/HolographicRemoting/player_openxr --check-stamp-file C:/Users/Jaro/Repos/HolographicRemoting/player_openxr/stereokit/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">C:\Program Files\CMake\share\cmake-3.25\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\cmake\CPM_0.32.2.cmake;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\cmake\CPM.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|arm64'">Building Custom Rule C:/Users/Jaro/Repos/HolographicRemoting/player_openxr/stereokit/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|arm64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Jaro/Repos/HolographicRemoting/player_openxr -BC:/Users/Jaro/Repos/HolographicRemoting/player_openxr --check-stamp-file C:/Users/Jaro/Repos/HolographicRemoting/player_openxr/stereokit/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|arm64'">C:\Program Files\CMake\share\cmake-3.25\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\cmake\CPM_0.32.2.cmake;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\cmake\CPM.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|arm64'">C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|arm64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|arm64'">Building Custom Rule C:/Users/Jaro/Repos/HolographicRemoting/player_openxr/stereokit/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|arm64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Jaro/Repos/HolographicRemoting/player_openxr -BC:/Users/Jaro/Repos/HolographicRemoting/player_openxr --check-stamp-file C:/Users/Jaro/Repos/HolographicRemoting/player_openxr/stereokit/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|arm64'">C:\Program Files\CMake\share\cmake-3.25\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\cmake\CPM_0.32.2.cmake;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\cmake\CPM.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|arm64'">C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|arm64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|arm64'">Building Custom Rule C:/Users/Jaro/Repos/HolographicRemoting/player_openxr/stereokit/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|arm64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Jaro/Repos/HolographicRemoting/player_openxr -BC:/Users/Jaro/Repos/HolographicRemoting/player_openxr --check-stamp-file C:/Users/Jaro/Repos/HolographicRemoting/player_openxr/stereokit/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|arm64'">C:\Program Files\CMake\share\cmake-3.25\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\cmake\CPM_0.32.2.cmake;C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\cmake\CPM.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|arm64'">C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|arm64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\stereokit.h" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\_stereokit.h" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\_stereokit_ui.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\color.cpp" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\backend.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\hierarchy.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\hierarchy.cpp" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\intersect.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\log.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\log.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\rect_atlas.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\rect_atlas.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\sk_math.h" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\sk_math_dx.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\sk_math.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\sk_memory.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\sk_memory.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\spherical_harmonics.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\spherical_harmonics.cpp" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\stereokit.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\assets.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\assets.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\animation.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\animation.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\font.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\font.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\material.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\material.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\mesh.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\mesh.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\model.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\model.cpp" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\model_gltf.cpp" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\model_obj.cpp" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\model_ply.cpp" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\model_stl.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\shader.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\shader.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\sound.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\sound.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\sprite.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\sprite.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\texture.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\texture.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\aileron_font_data.h" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\array.h" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\cgltf.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\cgltf.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\ferr_hash.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\ferr_hash.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\isac_spatial_sound.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\isac_spatial_sound.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\micro_ply.h" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\miniaudio.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\miniaudio.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\qoi.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\qoi.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\sk_gpu.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\sk_gpu.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\sokol_time.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\sokol_time.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\stb_image.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\stb_image.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\stb_image_write.h" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\stb_truetype.h" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\stref.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\stref.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\tinycthread.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\tinycthread.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\audio.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\audio.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\defaults.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\defaults.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\input.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\input.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\input_keyboard.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\input_keyboard.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\line_drawer.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\line_drawer.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\physics.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\physics.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\render.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\render.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\sprite_drawer.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\sprite_drawer.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\system.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\system.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\text.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\text.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\world.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\world.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\hand\hand_mouse.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\hand\hand_mouse.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\hand\hand_override.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\hand\hand_override.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\hand\hand_oxr_articulated.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\hand\hand_oxr_articulated.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\hand\hand_oxr_controller.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\hand\hand_oxr_controller.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\hand\hand_poses.h" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\hand\input_hand.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\hand\input_hand.cpp" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\android.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\android.h" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\flatscreen_input.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\flatscreen_input.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\linux.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\linux.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\openxr.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\openxr.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\openxr_extensions.h" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\openxr_input.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\openxr_input.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\openxr_view.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\openxr_view.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\platform.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\platform.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\platform_utils.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\platform_utils.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\web.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\web.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\uwp.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\uwp.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\win32.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\win32.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\tools\virtual_keyboard_layouts.h" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\tools\virtual_keyboard.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\tools\virtual_keyboard.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\tools\file_picker.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\tools\file_picker.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\stereokit_ui.h" />
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\ui\stereokit_ui.cpp" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\shaders_builtin\shader_builtin.h" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\shaders_builtin\shader_builtin_blit.hlsl.h" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\shaders_builtin\shader_builtin_default.hlsl.h" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\shaders_builtin\shader_builtin_equirect.hlsl.h" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\shaders_builtin\shader_builtin_font.hlsl.h" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\shaders_builtin\shader_builtin_lines.hlsl.h" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\shaders_builtin\shader_builtin_pbr.hlsl.h" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\shaders_builtin\shader_builtin_pbr_clip.hlsl.h" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\shaders_builtin\shader_builtin_skybox.hlsl.h" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\shaders_builtin\shader_builtin_ui.hlsl.h" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\shaders_builtin\shader_builtin_ui_box.hlsl.h" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\shaders_builtin\shader_builtin_ui_quadrant.hlsl.h" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\shaders_builtin\shader_builtin_unlit.hlsl.h" />
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\shaders_builtin\shader_builtin_unlit_clip.hlsl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\ZERO_CHECK.vcxproj">
+      <Project>{7C4E6FA7-1146-3551-BBD7-888C77AA9DFD}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\openxr-build\src\loader\openxr_loader.vcxproj">
+      <Project>{BAB58BDE-173A-3165-A559-1CA986610C1C}</Project>
+      <Name>openxr_loader</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\_deps\reactphysics3d-build\reactphysics3d.vcxproj">
+      <Project>{958490B0-0E7C-3026-AB30-C466943C64F3}</Project>
+      <Name>reactphysics3d</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

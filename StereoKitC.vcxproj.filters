@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\color.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\backend.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\hierarchy.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\intersect.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\log.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\rect_atlas.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\sk_math.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\sk_memory.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\spherical_harmonics.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\stereokit.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\assets.cpp">
+      <Filter>asset_types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\animation.cpp">
+      <Filter>asset_types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\font.cpp">
+      <Filter>asset_types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\material.cpp">
+      <Filter>asset_types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\mesh.cpp">
+      <Filter>asset_types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\model.cpp">
+      <Filter>asset_types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\model_gltf.cpp">
+      <Filter>asset_types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\model_obj.cpp">
+      <Filter>asset_types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\model_ply.cpp">
+      <Filter>asset_types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\model_stl.cpp">
+      <Filter>asset_types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\shader.cpp">
+      <Filter>asset_types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\sound.cpp">
+      <Filter>asset_types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\sprite.cpp">
+      <Filter>asset_types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\texture.cpp">
+      <Filter>asset_types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\cgltf.cpp">
+      <Filter>libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\ferr_hash.cpp">
+      <Filter>libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\isac_spatial_sound.cpp">
+      <Filter>libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\miniaudio.cpp">
+      <Filter>libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\qoi.cpp">
+      <Filter>libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\sk_gpu.cpp">
+      <Filter>libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\sokol_time.cpp">
+      <Filter>libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\stb_image.cpp">
+      <Filter>libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\stref.cpp">
+      <Filter>libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\tinycthread.cpp">
+      <Filter>libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\audio.cpp">
+      <Filter>systems</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\defaults.cpp">
+      <Filter>systems</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\input.cpp">
+      <Filter>systems</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\input_keyboard.cpp">
+      <Filter>systems</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\line_drawer.cpp">
+      <Filter>systems</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\physics.cpp">
+      <Filter>systems</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\render.cpp">
+      <Filter>systems</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\sprite_drawer.cpp">
+      <Filter>systems</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\system.cpp">
+      <Filter>systems</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\text.cpp">
+      <Filter>systems</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\world.cpp">
+      <Filter>systems</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\hand\hand_mouse.cpp">
+      <Filter>hands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\hand\hand_override.cpp">
+      <Filter>hands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\hand\hand_oxr_articulated.cpp">
+      <Filter>hands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\hand\hand_oxr_controller.cpp">
+      <Filter>hands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\hand\input_hand.cpp">
+      <Filter>hands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\android.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\flatscreen_input.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\linux.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\openxr.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\openxr_input.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\openxr_view.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\platform.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\platform_utils.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\web.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\uwp.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\win32.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\tools\virtual_keyboard.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\tools\file_picker.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\ui\stereokit_ui.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\stereokit.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\_stereokit.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\_stereokit_ui.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\hierarchy.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\log.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\rect_atlas.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\sk_math.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\sk_math_dx.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\sk_memory.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\spherical_harmonics.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\assets.h">
+      <Filter>asset_types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\animation.h">
+      <Filter>asset_types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\font.h">
+      <Filter>asset_types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\material.h">
+      <Filter>asset_types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\mesh.h">
+      <Filter>asset_types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\model.h">
+      <Filter>asset_types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\shader.h">
+      <Filter>asset_types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\sound.h">
+      <Filter>asset_types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\sprite.h">
+      <Filter>asset_types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\asset_types\texture.h">
+      <Filter>asset_types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\aileron_font_data.h">
+      <Filter>libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\array.h">
+      <Filter>libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\cgltf.h">
+      <Filter>libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\ferr_hash.h">
+      <Filter>libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\isac_spatial_sound.h">
+      <Filter>libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\micro_ply.h">
+      <Filter>libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\miniaudio.h">
+      <Filter>libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\qoi.h">
+      <Filter>libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\sk_gpu.h">
+      <Filter>libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\sokol_time.h">
+      <Filter>libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\stb_image.h">
+      <Filter>libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\stb_image_write.h">
+      <Filter>libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\stb_truetype.h">
+      <Filter>libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\stref.h">
+      <Filter>libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\libraries\tinycthread.h">
+      <Filter>libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\audio.h">
+      <Filter>systems</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\defaults.h">
+      <Filter>systems</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\input.h">
+      <Filter>systems</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\input_keyboard.h">
+      <Filter>systems</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\line_drawer.h">
+      <Filter>systems</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\physics.h">
+      <Filter>systems</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\render.h">
+      <Filter>systems</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\sprite_drawer.h">
+      <Filter>systems</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\system.h">
+      <Filter>systems</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\text.h">
+      <Filter>systems</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\world.h">
+      <Filter>systems</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\hand\hand_mouse.h">
+      <Filter>hands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\hand\hand_override.h">
+      <Filter>hands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\hand\hand_oxr_articulated.h">
+      <Filter>hands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\hand\hand_oxr_controller.h">
+      <Filter>hands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\hand\hand_poses.h">
+      <Filter>hands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\hand\input_hand.h">
+      <Filter>hands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\android.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\flatscreen_input.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\linux.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\openxr.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\openxr_extensions.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\openxr_input.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\openxr_view.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\platform.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\platform_utils.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\web.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\uwp.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\systems\platform\win32.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\tools\virtual_keyboard_layouts.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\tools\virtual_keyboard.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\tools\file_picker.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\stereokit_ui.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\shaders_builtin\shader_builtin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\shaders_builtin\shader_builtin_blit.hlsl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\shaders_builtin\shader_builtin_default.hlsl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\shaders_builtin\shader_builtin_equirect.hlsl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\shaders_builtin\shader_builtin_font.hlsl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\shaders_builtin\shader_builtin_lines.hlsl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\shaders_builtin\shader_builtin_pbr.hlsl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\shaders_builtin\shader_builtin_pbr_clip.hlsl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\shaders_builtin\shader_builtin_skybox.hlsl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\shaders_builtin\shader_builtin_ui.hlsl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\shaders_builtin\shader_builtin_ui_box.hlsl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\shaders_builtin\shader_builtin_ui_quadrant.hlsl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\shaders_builtin\shader_builtin_unlit.hlsl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\StereoKitC\shaders_builtin\shader_builtin_unlit_clip.hlsl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\stereokit\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{69793190-EB95-3D2E-94F6-433BEC157541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asset_types">
+      <UniqueIdentifier>{499DA009-9B0B-3E0C-A3E0-D52BF54857BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code">
+      <UniqueIdentifier>{045674AA-44C3-36AC-AA9F-20D98082721F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hands">
+      <UniqueIdentifier>{8772C679-621C-3154-B9EF-404DBEFE1823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries">
+      <UniqueIdentifier>{EFAE3363-8EFA-344B-AFC7-C5FFBBBAD7C4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform">
+      <UniqueIdentifier>{E9103C08-8999-3F6C-BB92-585453951359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="systems">
+      <UniqueIdentifier>{8FFF3A72-3D1D-3FA0-AD06-E256DB0C8A19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{94DA2790-B389-3E75-A6DB-141F436D6660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{0F851BCA-41F9-3B85-9ECB-465BEC856C83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

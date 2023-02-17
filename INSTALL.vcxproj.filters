@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Jaro\Repos\HolographicRemoting\player_openxr\CMakeFiles\c55a7323988a33a9b59e4e474eb04a0e\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{76B0A4D5-8082-329C-ADAF-AAF951C89B23}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
